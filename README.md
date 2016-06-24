@@ -1,6 +1,6 @@
 # React Seed
 
-Simple seed project to kick off a minimal ES6+React project with Webpack and Babel. No redux, no GrapQL, nothing but plain old React.
+Simple seed project to kick off a minimal ES6+React project with Webpack and Babel. No redux, no GraphQL, nothing but plain old React.
 
 You'll want to clone this repo and re-initialize its git history:
 
