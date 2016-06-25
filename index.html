@@ -3,9 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>React Seed - rmotr.com</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <style>
+    .container{
+      margin-top: 20px;
+    }
+    .game-container{
+      width: 500px;
+    }
+    .board-container{
+      margin-top: 20px;
+    }
+    .board-container .row{
+      margin-bottom: 20px;
+    }
+    .board-container .game-cell button{
+      width: 100px;
+      height: 100px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .player-info{
+      font-size: 30px;
+    }
+    .player-info span{
+      color: #419641;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" id="app"></div>
+    </div>
+  </div>
   <script src="bundle.js" charset="utf-8"></script>
 </body>
 </html>
