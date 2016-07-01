@@ -1,7 +1,9 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "node": true,
+        "mocha": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -14,7 +16,14 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "settings": {
+      "react": {
+        "pragma": "React"
+      }
+    },
     "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "indent": [
             "error",
             2
